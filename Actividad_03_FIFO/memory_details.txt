@@ -1,0 +1,883 @@
+Estado Actual de los Marcos de Memoria:
+Marco 0: Ocupado por página 53 del proceso 1
+Marco 1: Ocupado por página 186 del proceso 2
+Marco 2: Ocupado por página 242 del proceso 2
+Marco 3: Ocupado por página 150 del proceso 1
+Marco 4: Ocupado por página 68 del proceso 2
+Marco 5: Ocupado por página 78 del proceso 1
+Marco 6: Ocupado por página 218 del proceso 1
+Marco 7: Ocupado por página 110 del proceso 1
+Marco 8: Ocupado por página 61 del proceso 0
+Marco 9: Ocupado por página 217 del proceso 1
+Marco 10: Ocupado por página 124 del proceso 0
+Marco 11: Ocupado por página 84 del proceso 2
+Marco 12: Ocupado por página 224 del proceso 2
+Marco 13: Ocupado por página 136 del proceso 0
+Marco 14: Ocupado por página 54 del proceso 1
+Marco 15: Ocupado por página 224 del proceso 1
+Marco 16: Ocupado por página 154 del proceso 2
+Marco 17: Ocupado por página 219 del proceso 0
+Marco 18: Ocupado por página 58 del proceso 1
+Marco 19: Ocupado por página 184 del proceso 1
+Marco 20: Ocupado por página 201 del proceso 1
+Marco 21: Ocupado por página 81 del proceso 1
+Marco 22: Ocupado por página 80 del proceso 0
+Marco 23: Ocupado por página 182 del proceso 1
+Marco 24: Ocupado por página 44 del proceso 0
+Marco 25: Ocupado por página 62 del proceso 2
+Marco 26: Ocupado por página 249 del proceso 1
+Marco 27: Ocupado por página 195 del proceso 2
+Marco 28: Ocupado por página 35 del proceso 2
+Marco 29: Ocupado por página 132 del proceso 2
+Marco 30: Ocupado por página 9 del proceso 1
+Marco 31: Ocupado por página 52 del proceso 0
+Marco 32: Ocupado por página 69 del proceso 2
+Marco 33: Ocupado por página 207 del proceso 1
+Marco 34: Ocupado por página 209 del proceso 2
+Marco 35: Ocupado por página 235 del proceso 0
+Marco 36: Ocupado por página 104 del proceso 1
+Marco 37: Ocupado por página 93 del proceso 1
+Marco 38: Ocupado por página 102 del proceso 2
+Marco 39: Ocupado por página 124 del proceso 1
+Marco 40: Ocupado por página 76 del proceso 1
+Marco 41: Ocupado por página 165 del proceso 1
+Marco 42: Ocupado por página 178 del proceso 0
+Marco 43: Ocupado por página 164 del proceso 1
+Marco 44: Ocupado por página 217 del proceso 0
+Marco 45: Ocupado por página 167 del proceso 0
+Marco 46: Ocupado por página 26 del proceso 0
+Marco 47: Ocupado por página 118 del proceso 2
+Marco 48: Ocupado por página 108 del proceso 1
+Marco 49: Ocupado por página 74 del proceso 1
+Marco 50: Ocupado por página 52 del proceso 1
+Marco 51: Ocupado por página 153 del proceso 1
+Marco 52: Ocupado por página 184 del proceso 0
+Marco 53: Ocupado por página 0 del proceso 1
+Marco 54: Ocupado por página 136 del proceso 1
+Marco 55: Ocupado por página 166 del proceso 1
+Marco 56: Ocupado por página 119 del proceso 2
+Marco 57: Ocupado por página 115 del proceso 2
+Marco 58: Ocupado por página 140 del proceso 0
+Marco 59: Ocupado por página 102 del proceso 1
+Marco 60: Ocupado por página 178 del proceso 2
+Marco 61: Ocupado por página 39 del proceso 1
+Marco 62: Ocupado por página 241 del proceso 0
+Marco 63: Ocupado por página 27 del proceso 0
+Marco 64: Ocupado por página 169 del proceso 2
+Marco 65: Ocupado por página 176 del proceso 0
+Marco 66: Ocupado por página 217 del proceso 2
+Marco 67: Ocupado por página 255 del proceso 1
+Marco 68: Ocupado por página 141 del proceso 1
+Marco 69: Ocupado por página 170 del proceso 2
+Marco 70: Ocupado por página 38 del proceso 2
+Marco 71: Ocupado por página 100 del proceso 2
+Marco 72: Ocupado por página 245 del proceso 1
+Marco 73: Ocupado por página 89 del proceso 2
+Marco 74: Ocupado por página 103 del proceso 0
+Marco 75: Ocupado por página 161 del proceso 0
+Marco 76: Ocupado por página 109 del proceso 2
+Marco 77: Ocupado por página 223 del proceso 0
+Marco 78: Ocupado por página 101 del proceso 0
+Marco 79: Ocupado por página 126 del proceso 0
+Marco 80: Ocupado por página 34 del proceso 0
+Marco 81: Ocupado por página 225 del proceso 1
+Marco 82: Ocupado por página 205 del proceso 1
+Marco 83: Ocupado por página 38 del proceso 1
+Marco 84: Ocupado por página 33 del proceso 1
+Marco 85: Ocupado por página 97 del proceso 1
+Marco 86: Ocupado por página 158 del proceso 0
+Marco 87: Ocupado por página 152 del proceso 0
+Marco 88: Ocupado por página 114 del proceso 2
+Marco 89: Ocupado por página 227 del proceso 0
+Marco 90: Ocupado por página 67 del proceso 1
+Marco 91: Ocupado por página 225 del proceso 0
+Marco 92: Ocupado por página 187 del proceso 2
+Marco 93: Ocupado por página 167 del proceso 2
+Marco 94: Ocupado por página 90 del proceso 0
+Marco 95: Ocupado por página 116 del proceso 1
+Marco 96: Ocupado por página 76 del proceso 0
+Marco 97: Ocupado por página 245 del proceso 2
+Marco 98: Ocupado por página 141 del proceso 0
+Marco 99: Ocupado por página 98 del proceso 0
+
+Detalle de la Memoria para cada Proceso:
+
+Proceso 0:
+Estado de la Tabla de Páginas:
+Página 0: No presente en marco -1
+Página 1: No presente en marco -1
+Página 2: No presente en marco -1
+Página 3: No presente en marco -1
+Página 4: No presente en marco -1
+Página 5: No presente en marco -1
+Página 6: No presente en marco -1
+Página 7: No presente en marco -1
+Página 8: No presente en marco -1
+Página 9: No presente en marco -1
+Página 10: No presente en marco -1
+Página 11: No presente en marco -1
+Página 12: No presente en marco -1
+Página 13: No presente en marco -1
+Página 14: No presente en marco -1
+Página 15: No presente en marco -1
+Página 16: No presente en marco -1
+Página 17: No presente en marco -1
+Página 18: No presente en marco -1
+Página 19: No presente en marco -1
+Página 20: No presente en marco -1
+Página 21: No presente en marco -1
+Página 22: No presente en marco -1
+Página 23: No presente en marco -1
+Página 24: No presente en marco -1
+Página 25: No presente en marco -1
+Página 26: Presente en marco 46
+Página 27: Presente en marco 63
+Página 28: No presente en marco -1
+Página 29: No presente en marco -1
+Página 30: No presente en marco -1
+Página 31: No presente en marco -1
+Página 32: No presente en marco -1
+Página 33: No presente en marco -1
+Página 34: Presente en marco 80
+Página 35: No presente en marco -1
+Página 36: No presente en marco -1
+Página 37: No presente en marco -1
+Página 38: No presente en marco -1
+Página 39: No presente en marco -1
+Página 40: No presente en marco -1
+Página 41: No presente en marco -1
+Página 42: No presente en marco -1
+Página 43: No presente en marco -1
+Página 44: Presente en marco 24
+Página 45: No presente en marco -1
+Página 46: No presente en marco -1
+Página 47: No presente en marco -1
+Página 48: No presente en marco -1
+Página 49: No presente en marco -1
+Página 50: No presente en marco -1
+Página 51: No presente en marco -1
+Página 52: Presente en marco 31
+Página 53: No presente en marco -1
+Página 54: No presente en marco -1
+Página 55: No presente en marco -1
+Página 56: No presente en marco -1
+Página 57: No presente en marco -1
+Página 58: No presente en marco -1
+Página 59: No presente en marco -1
+Página 60: No presente en marco -1
+Página 61: Presente en marco 8
+Página 62: No presente en marco -1
+Página 63: No presente en marco -1
+Página 64: No presente en marco -1
+Página 65: No presente en marco -1
+Página 66: No presente en marco -1
+Página 67: No presente en marco -1
+Página 68: No presente en marco -1
+Página 69: No presente en marco -1
+Página 70: No presente en marco -1
+Página 71: No presente en marco -1
+Página 72: No presente en marco -1
+Página 73: No presente en marco -1
+Página 74: No presente en marco -1
+Página 75: No presente en marco -1
+Página 76: Presente en marco 96
+Página 77: No presente en marco -1
+Página 78: No presente en marco -1
+Página 79: No presente en marco -1
+Página 80: Presente en marco 22
+Página 81: No presente en marco -1
+Página 82: No presente en marco -1
+Página 83: No presente en marco -1
+Página 84: No presente en marco -1
+Página 85: No presente en marco -1
+Página 86: No presente en marco -1
+Página 87: No presente en marco -1
+Página 88: No presente en marco -1
+Página 89: No presente en marco -1
+Página 90: Presente en marco 94
+Página 91: No presente en marco -1
+Página 92: No presente en marco -1
+Página 93: No presente en marco -1
+Página 94: No presente en marco -1
+Página 95: No presente en marco -1
+Página 96: No presente en marco -1
+Página 97: No presente en marco -1
+Página 98: Presente en marco 99
+Página 99: No presente en marco -1
+Página 100: No presente en marco -1
+Página 101: Presente en marco 78
+Página 102: No presente en marco -1
+Página 103: Presente en marco 74
+Página 104: No presente en marco -1
+Página 105: No presente en marco -1
+Página 106: No presente en marco -1
+Página 107: No presente en marco -1
+Página 108: No presente en marco -1
+Página 109: No presente en marco -1
+Página 110: No presente en marco -1
+Página 111: No presente en marco -1
+Página 112: No presente en marco -1
+Página 113: No presente en marco -1
+Página 114: No presente en marco -1
+Página 115: No presente en marco -1
+Página 116: No presente en marco -1
+Página 117: No presente en marco -1
+Página 118: No presente en marco -1
+Página 119: No presente en marco -1
+Página 120: No presente en marco -1
+Página 121: No presente en marco -1
+Página 122: No presente en marco -1
+Página 123: No presente en marco -1
+Página 124: Presente en marco 10
+Página 125: No presente en marco -1
+Página 126: Presente en marco 79
+Página 127: No presente en marco -1
+Página 128: No presente en marco -1
+Página 129: No presente en marco -1
+Página 130: No presente en marco -1
+Página 131: No presente en marco -1
+Página 132: No presente en marco -1
+Página 133: No presente en marco -1
+Página 134: No presente en marco -1
+Página 135: No presente en marco -1
+Página 136: Presente en marco 13
+Página 137: No presente en marco -1
+Página 138: No presente en marco -1
+Página 139: No presente en marco -1
+Página 140: Presente en marco 58
+Página 141: Presente en marco 98
+Página 142: No presente en marco -1
+Página 143: No presente en marco -1
+Página 144: No presente en marco -1
+Página 145: No presente en marco -1
+Página 146: No presente en marco -1
+Página 147: No presente en marco -1
+Página 148: No presente en marco -1
+Página 149: No presente en marco -1
+Página 150: No presente en marco -1
+Página 151: No presente en marco -1
+Página 152: Presente en marco 87
+Página 153: No presente en marco -1
+Página 154: No presente en marco -1
+Página 155: No presente en marco -1
+Página 156: No presente en marco -1
+Página 157: No presente en marco -1
+Página 158: Presente en marco 86
+Página 159: No presente en marco -1
+Página 160: No presente en marco -1
+Página 161: Presente en marco 75
+Página 162: No presente en marco -1
+Página 163: No presente en marco -1
+Página 164: No presente en marco -1
+Página 165: No presente en marco -1
+Página 166: No presente en marco -1
+Página 167: Presente en marco 45
+Página 168: No presente en marco -1
+Página 169: No presente en marco -1
+Página 170: No presente en marco -1
+Página 171: No presente en marco -1
+Página 172: No presente en marco -1
+Página 173: No presente en marco -1
+Página 174: No presente en marco -1
+Página 175: No presente en marco -1
+Página 176: Presente en marco 65
+Página 177: No presente en marco -1
+Página 178: Presente en marco 42
+Página 179: No presente en marco -1
+Página 180: No presente en marco -1
+Página 181: No presente en marco -1
+Página 182: No presente en marco -1
+Página 183: No presente en marco -1
+Página 184: Presente en marco 52
+Página 185: No presente en marco -1
+Página 186: No presente en marco -1
+Página 187: No presente en marco -1
+Página 188: No presente en marco -1
+Página 189: No presente en marco -1
+Página 190: No presente en marco -1
+Página 191: No presente en marco -1
+Página 192: No presente en marco -1
+Página 193: No presente en marco -1
+Página 194: No presente en marco -1
+Página 195: No presente en marco -1
+Página 196: No presente en marco -1
+Página 197: No presente en marco -1
+Página 198: No presente en marco -1
+Página 199: No presente en marco -1
+Página 200: No presente en marco -1
+Página 201: No presente en marco -1
+Página 202: No presente en marco -1
+Página 203: No presente en marco -1
+Página 204: No presente en marco -1
+Página 205: No presente en marco -1
+Página 206: No presente en marco -1
+Página 207: No presente en marco -1
+Página 208: No presente en marco -1
+Página 209: No presente en marco -1
+Página 210: No presente en marco -1
+Página 211: No presente en marco -1
+Página 212: No presente en marco -1
+Página 213: No presente en marco -1
+Página 214: No presente en marco -1
+Página 215: No presente en marco -1
+Página 216: No presente en marco -1
+Página 217: Presente en marco 44
+Página 218: No presente en marco -1
+Página 219: Presente en marco 17
+Página 220: No presente en marco -1
+Página 221: No presente en marco -1
+Página 222: No presente en marco -1
+Página 223: Presente en marco 77
+Página 224: No presente en marco -1
+Página 225: Presente en marco 91
+Página 226: No presente en marco -1
+Página 227: Presente en marco 89
+Página 228: No presente en marco -1
+Página 229: No presente en marco -1
+Página 230: No presente en marco -1
+Página 231: No presente en marco -1
+Página 232: No presente en marco -1
+Página 233: No presente en marco -1
+Página 234: No presente en marco -1
+Página 235: Presente en marco 35
+Página 236: No presente en marco -1
+Página 237: No presente en marco -1
+Página 238: No presente en marco -1
+Página 239: No presente en marco -1
+Página 240: No presente en marco -1
+Página 241: Presente en marco 62
+Página 242: No presente en marco -1
+Página 243: No presente en marco -1
+Página 244: No presente en marco -1
+Página 245: No presente en marco -1
+Página 246: No presente en marco -1
+Página 247: No presente en marco -1
+Página 248: No presente en marco -1
+Página 249: No presente en marco -1
+Página 250: No presente en marco -1
+Página 251: No presente en marco -1
+Página 252: No presente en marco -1
+Página 253: No presente en marco -1
+Página 254: No presente en marco -1
+Página 255: No presente en marco -1
+
+Proceso 1:
+Estado de la Tabla de Páginas:
+Página 0: Presente en marco 53
+Página 1: No presente en marco -1
+Página 2: No presente en marco -1
+Página 3: No presente en marco -1
+Página 4: No presente en marco -1
+Página 5: No presente en marco -1
+Página 6: No presente en marco -1
+Página 7: No presente en marco -1
+Página 8: No presente en marco -1
+Página 9: Presente en marco 30
+Página 10: No presente en marco -1
+Página 11: No presente en marco -1
+Página 12: No presente en marco -1
+Página 13: No presente en marco -1
+Página 14: No presente en marco -1
+Página 15: No presente en marco -1
+Página 16: No presente en marco -1
+Página 17: No presente en marco -1
+Página 18: No presente en marco -1
+Página 19: No presente en marco -1
+Página 20: No presente en marco -1
+Página 21: No presente en marco -1
+Página 22: No presente en marco -1
+Página 23: No presente en marco -1
+Página 24: No presente en marco -1
+Página 25: No presente en marco -1
+Página 26: No presente en marco -1
+Página 27: No presente en marco -1
+Página 28: No presente en marco -1
+Página 29: No presente en marco -1
+Página 30: No presente en marco -1
+Página 31: No presente en marco -1
+Página 32: No presente en marco -1
+Página 33: Presente en marco 84
+Página 34: No presente en marco -1
+Página 35: No presente en marco -1
+Página 36: No presente en marco -1
+Página 37: No presente en marco -1
+Página 38: Presente en marco 83
+Página 39: Presente en marco 61
+Página 40: No presente en marco -1
+Página 41: No presente en marco -1
+Página 42: No presente en marco -1
+Página 43: No presente en marco -1
+Página 44: No presente en marco -1
+Página 45: No presente en marco -1
+Página 46: No presente en marco -1
+Página 47: No presente en marco -1
+Página 48: No presente en marco -1
+Página 49: No presente en marco -1
+Página 50: No presente en marco -1
+Página 51: No presente en marco -1
+Página 52: Presente en marco 50
+Página 53: Presente en marco 0
+Página 54: Presente en marco 14
+Página 55: No presente en marco -1
+Página 56: No presente en marco -1
+Página 57: No presente en marco -1
+Página 58: Presente en marco 18
+Página 59: No presente en marco -1
+Página 60: No presente en marco -1
+Página 61: No presente en marco -1
+Página 62: No presente en marco -1
+Página 63: No presente en marco -1
+Página 64: No presente en marco -1
+Página 65: No presente en marco -1
+Página 66: No presente en marco -1
+Página 67: Presente en marco 90
+Página 68: No presente en marco -1
+Página 69: No presente en marco -1
+Página 70: No presente en marco -1
+Página 71: No presente en marco -1
+Página 72: No presente en marco -1
+Página 73: No presente en marco -1
+Página 74: Presente en marco 49
+Página 75: No presente en marco -1
+Página 76: Presente en marco 40
+Página 77: No presente en marco -1
+Página 78: Presente en marco 5
+Página 79: No presente en marco -1
+Página 80: No presente en marco -1
+Página 81: Presente en marco 21
+Página 82: No presente en marco -1
+Página 83: No presente en marco -1
+Página 84: No presente en marco -1
+Página 85: No presente en marco -1
+Página 86: No presente en marco -1
+Página 87: No presente en marco -1
+Página 88: No presente en marco -1
+Página 89: No presente en marco -1
+Página 90: No presente en marco -1
+Página 91: No presente en marco -1
+Página 92: No presente en marco -1
+Página 93: Presente en marco 37
+Página 94: No presente en marco -1
+Página 95: No presente en marco -1
+Página 96: No presente en marco -1
+Página 97: Presente en marco 85
+Página 98: No presente en marco -1
+Página 99: No presente en marco -1
+Página 100: No presente en marco -1
+Página 101: No presente en marco -1
+Página 102: Presente en marco 59
+Página 103: No presente en marco -1
+Página 104: Presente en marco 36
+Página 105: No presente en marco -1
+Página 106: No presente en marco -1
+Página 107: No presente en marco -1
+Página 108: Presente en marco 48
+Página 109: No presente en marco -1
+Página 110: Presente en marco 7
+Página 111: No presente en marco -1
+Página 112: No presente en marco -1
+Página 113: No presente en marco -1
+Página 114: No presente en marco -1
+Página 115: No presente en marco -1
+Página 116: Presente en marco 95
+Página 117: No presente en marco -1
+Página 118: No presente en marco -1
+Página 119: No presente en marco -1
+Página 120: No presente en marco -1
+Página 121: No presente en marco -1
+Página 122: No presente en marco -1
+Página 123: No presente en marco -1
+Página 124: Presente en marco 39
+Página 125: No presente en marco -1
+Página 126: No presente en marco -1
+Página 127: No presente en marco -1
+Página 128: No presente en marco -1
+Página 129: No presente en marco -1
+Página 130: No presente en marco -1
+Página 131: No presente en marco -1
+Página 132: No presente en marco -1
+Página 133: No presente en marco -1
+Página 134: No presente en marco -1
+Página 135: No presente en marco -1
+Página 136: Presente en marco 54
+Página 137: No presente en marco -1
+Página 138: No presente en marco -1
+Página 139: No presente en marco -1
+Página 140: No presente en marco -1
+Página 141: Presente en marco 68
+Página 142: No presente en marco -1
+Página 143: No presente en marco -1
+Página 144: No presente en marco -1
+Página 145: No presente en marco -1
+Página 146: No presente en marco -1
+Página 147: No presente en marco -1
+Página 148: No presente en marco -1
+Página 149: No presente en marco -1
+Página 150: Presente en marco 3
+Página 151: No presente en marco -1
+Página 152: No presente en marco -1
+Página 153: Presente en marco 51
+Página 154: No presente en marco -1
+Página 155: No presente en marco -1
+Página 156: No presente en marco -1
+Página 157: No presente en marco -1
+Página 158: No presente en marco -1
+Página 159: No presente en marco -1
+Página 160: No presente en marco -1
+Página 161: No presente en marco -1
+Página 162: No presente en marco -1
+Página 163: No presente en marco -1
+Página 164: Presente en marco 43
+Página 165: Presente en marco 41
+Página 166: Presente en marco 55
+Página 167: No presente en marco -1
+Página 168: No presente en marco -1
+Página 169: No presente en marco -1
+Página 170: No presente en marco -1
+Página 171: No presente en marco -1
+Página 172: No presente en marco -1
+Página 173: No presente en marco -1
+Página 174: No presente en marco -1
+Página 175: No presente en marco -1
+Página 176: No presente en marco -1
+Página 177: No presente en marco -1
+Página 178: No presente en marco -1
+Página 179: No presente en marco -1
+Página 180: No presente en marco -1
+Página 181: No presente en marco -1
+Página 182: Presente en marco 23
+Página 183: No presente en marco -1
+Página 184: Presente en marco 19
+Página 185: No presente en marco -1
+Página 186: No presente en marco -1
+Página 187: No presente en marco -1
+Página 188: No presente en marco -1
+Página 189: No presente en marco -1
+Página 190: No presente en marco -1
+Página 191: No presente en marco -1
+Página 192: No presente en marco -1
+Página 193: No presente en marco -1
+Página 194: No presente en marco -1
+Página 195: No presente en marco -1
+Página 196: No presente en marco -1
+Página 197: No presente en marco -1
+Página 198: No presente en marco -1
+Página 199: No presente en marco -1
+Página 200: No presente en marco -1
+Página 201: Presente en marco 20
+Página 202: No presente en marco -1
+Página 203: No presente en marco -1
+Página 204: No presente en marco -1
+Página 205: Presente en marco 82
+Página 206: No presente en marco -1
+Página 207: Presente en marco 33
+Página 208: No presente en marco -1
+Página 209: No presente en marco -1
+Página 210: No presente en marco -1
+Página 211: No presente en marco -1
+Página 212: No presente en marco -1
+Página 213: No presente en marco -1
+Página 214: No presente en marco -1
+Página 215: No presente en marco -1
+Página 216: No presente en marco -1
+Página 217: Presente en marco 9
+Página 218: Presente en marco 6
+Página 219: No presente en marco -1
+Página 220: No presente en marco -1
+Página 221: No presente en marco -1
+Página 222: No presente en marco -1
+Página 223: No presente en marco -1
+Página 224: Presente en marco 15
+Página 225: Presente en marco 81
+Página 226: No presente en marco -1
+Página 227: No presente en marco -1
+Página 228: No presente en marco -1
+Página 229: No presente en marco -1
+Página 230: No presente en marco -1
+Página 231: No presente en marco -1
+Página 232: No presente en marco -1
+Página 233: No presente en marco -1
+Página 234: No presente en marco -1
+Página 235: No presente en marco -1
+Página 236: No presente en marco -1
+Página 237: No presente en marco -1
+Página 238: No presente en marco -1
+Página 239: No presente en marco -1
+Página 240: No presente en marco -1
+Página 241: No presente en marco -1
+Página 242: No presente en marco -1
+Página 243: No presente en marco -1
+Página 244: No presente en marco -1
+Página 245: Presente en marco 72
+Página 246: No presente en marco -1
+Página 247: No presente en marco -1
+Página 248: No presente en marco -1
+Página 249: Presente en marco 26
+Página 250: No presente en marco -1
+Página 251: No presente en marco -1
+Página 252: No presente en marco -1
+Página 253: No presente en marco -1
+Página 254: No presente en marco -1
+Página 255: Presente en marco 67
+
+Proceso 2:
+Estado de la Tabla de Páginas:
+Página 0: No presente en marco -1
+Página 1: No presente en marco -1
+Página 2: No presente en marco -1
+Página 3: No presente en marco -1
+Página 4: No presente en marco -1
+Página 5: No presente en marco -1
+Página 6: No presente en marco -1
+Página 7: No presente en marco -1
+Página 8: No presente en marco -1
+Página 9: No presente en marco -1
+Página 10: No presente en marco -1
+Página 11: No presente en marco -1
+Página 12: No presente en marco -1
+Página 13: No presente en marco -1
+Página 14: No presente en marco -1
+Página 15: No presente en marco -1
+Página 16: No presente en marco -1
+Página 17: No presente en marco -1
+Página 18: No presente en marco -1
+Página 19: No presente en marco -1
+Página 20: No presente en marco -1
+Página 21: No presente en marco -1
+Página 22: No presente en marco -1
+Página 23: No presente en marco -1
+Página 24: No presente en marco -1
+Página 25: No presente en marco -1
+Página 26: No presente en marco -1
+Página 27: No presente en marco -1
+Página 28: No presente en marco -1
+Página 29: No presente en marco -1
+Página 30: No presente en marco -1
+Página 31: No presente en marco -1
+Página 32: No presente en marco -1
+Página 33: No presente en marco -1
+Página 34: No presente en marco -1
+Página 35: Presente en marco 28
+Página 36: No presente en marco -1
+Página 37: No presente en marco -1
+Página 38: Presente en marco 70
+Página 39: No presente en marco -1
+Página 40: No presente en marco -1
+Página 41: No presente en marco -1
+Página 42: No presente en marco -1
+Página 43: No presente en marco -1
+Página 44: No presente en marco -1
+Página 45: No presente en marco -1
+Página 46: No presente en marco -1
+Página 47: No presente en marco -1
+Página 48: No presente en marco -1
+Página 49: No presente en marco -1
+Página 50: No presente en marco -1
+Página 51: No presente en marco -1
+Página 52: No presente en marco -1
+Página 53: No presente en marco -1
+Página 54: No presente en marco -1
+Página 55: No presente en marco -1
+Página 56: No presente en marco -1
+Página 57: No presente en marco -1
+Página 58: No presente en marco -1
+Página 59: No presente en marco -1
+Página 60: No presente en marco -1
+Página 61: No presente en marco -1
+Página 62: Presente en marco 25
+Página 63: No presente en marco -1
+Página 64: No presente en marco -1
+Página 65: No presente en marco -1
+Página 66: No presente en marco -1
+Página 67: No presente en marco -1
+Página 68: Presente en marco 4
+Página 69: Presente en marco 32
+Página 70: No presente en marco -1
+Página 71: No presente en marco -1
+Página 72: No presente en marco -1
+Página 73: No presente en marco -1
+Página 74: No presente en marco -1
+Página 75: No presente en marco -1
+Página 76: No presente en marco -1
+Página 77: No presente en marco -1
+Página 78: No presente en marco -1
+Página 79: No presente en marco -1
+Página 80: No presente en marco -1
+Página 81: No presente en marco -1
+Página 82: No presente en marco -1
+Página 83: No presente en marco -1
+Página 84: Presente en marco 11
+Página 85: No presente en marco -1
+Página 86: No presente en marco -1
+Página 87: No presente en marco -1
+Página 88: No presente en marco -1
+Página 89: Presente en marco 73
+Página 90: No presente en marco -1
+Página 91: No presente en marco -1
+Página 92: No presente en marco -1
+Página 93: No presente en marco -1
+Página 94: No presente en marco -1
+Página 95: No presente en marco -1
+Página 96: No presente en marco -1
+Página 97: No presente en marco -1
+Página 98: No presente en marco -1
+Página 99: No presente en marco -1
+Página 100: Presente en marco 71
+Página 101: No presente en marco -1
+Página 102: Presente en marco 38
+Página 103: No presente en marco -1
+Página 104: No presente en marco -1
+Página 105: No presente en marco -1
+Página 106: No presente en marco -1
+Página 107: No presente en marco -1
+Página 108: No presente en marco -1
+Página 109: Presente en marco 76
+Página 110: No presente en marco -1
+Página 111: No presente en marco -1
+Página 112: No presente en marco -1
+Página 113: No presente en marco -1
+Página 114: Presente en marco 88
+Página 115: Presente en marco 57
+Página 116: No presente en marco -1
+Página 117: No presente en marco -1
+Página 118: Presente en marco 47
+Página 119: Presente en marco 56
+Página 120: No presente en marco -1
+Página 121: No presente en marco -1
+Página 122: No presente en marco -1
+Página 123: No presente en marco -1
+Página 124: No presente en marco -1
+Página 125: No presente en marco -1
+Página 126: No presente en marco -1
+Página 127: No presente en marco -1
+Página 128: No presente en marco -1
+Página 129: No presente en marco -1
+Página 130: No presente en marco -1
+Página 131: No presente en marco -1
+Página 132: Presente en marco 29
+Página 133: No presente en marco -1
+Página 134: No presente en marco -1
+Página 135: No presente en marco -1
+Página 136: No presente en marco -1
+Página 137: No presente en marco -1
+Página 138: No presente en marco -1
+Página 139: No presente en marco -1
+Página 140: No presente en marco -1
+Página 141: No presente en marco -1
+Página 142: No presente en marco -1
+Página 143: No presente en marco -1
+Página 144: No presente en marco -1
+Página 145: No presente en marco -1
+Página 146: No presente en marco -1
+Página 147: No presente en marco -1
+Página 148: No presente en marco -1
+Página 149: No presente en marco -1
+Página 150: No presente en marco -1
+Página 151: No presente en marco -1
+Página 152: No presente en marco -1
+Página 153: No presente en marco -1
+Página 154: Presente en marco 16
+Página 155: No presente en marco -1
+Página 156: No presente en marco -1
+Página 157: No presente en marco -1
+Página 158: No presente en marco -1
+Página 159: No presente en marco -1
+Página 160: No presente en marco -1
+Página 161: No presente en marco -1
+Página 162: No presente en marco -1
+Página 163: No presente en marco -1
+Página 164: No presente en marco -1
+Página 165: No presente en marco -1
+Página 166: No presente en marco -1
+Página 167: Presente en marco 93
+Página 168: No presente en marco -1
+Página 169: Presente en marco 64
+Página 170: Presente en marco 69
+Página 171: No presente en marco -1
+Página 172: No presente en marco -1
+Página 173: No presente en marco -1
+Página 174: No presente en marco -1
+Página 175: No presente en marco -1
+Página 176: No presente en marco -1
+Página 177: No presente en marco -1
+Página 178: Presente en marco 60
+Página 179: No presente en marco -1
+Página 180: No presente en marco -1
+Página 181: No presente en marco -1
+Página 182: No presente en marco -1
+Página 183: No presente en marco -1
+Página 184: No presente en marco -1
+Página 185: No presente en marco -1
+Página 186: Presente en marco 1
+Página 187: Presente en marco 92
+Página 188: No presente en marco -1
+Página 189: No presente en marco -1
+Página 190: No presente en marco -1
+Página 191: No presente en marco -1
+Página 192: No presente en marco -1
+Página 193: No presente en marco -1
+Página 194: No presente en marco -1
+Página 195: Presente en marco 27
+Página 196: No presente en marco -1
+Página 197: No presente en marco -1
+Página 198: No presente en marco -1
+Página 199: No presente en marco -1
+Página 200: No presente en marco -1
+Página 201: No presente en marco -1
+Página 202: No presente en marco -1
+Página 203: No presente en marco -1
+Página 204: No presente en marco -1
+Página 205: No presente en marco -1
+Página 206: No presente en marco -1
+Página 207: No presente en marco -1
+Página 208: No presente en marco -1
+Página 209: Presente en marco 34
+Página 210: No presente en marco -1
+Página 211: No presente en marco -1
+Página 212: No presente en marco -1
+Página 213: No presente en marco -1
+Página 214: No presente en marco -1
+Página 215: No presente en marco -1
+Página 216: No presente en marco -1
+Página 217: Presente en marco 66
+Página 218: No presente en marco -1
+Página 219: No presente en marco -1
+Página 220: No presente en marco -1
+Página 221: No presente en marco -1
+Página 222: No presente en marco -1
+Página 223: No presente en marco -1
+Página 224: Presente en marco 12
+Página 225: No presente en marco -1
+Página 226: No presente en marco -1
+Página 227: No presente en marco -1
+Página 228: No presente en marco -1
+Página 229: No presente en marco -1
+Página 230: No presente en marco -1
+Página 231: No presente en marco -1
+Página 232: No presente en marco -1
+Página 233: No presente en marco -1
+Página 234: No presente en marco -1
+Página 235: No presente en marco -1
+Página 236: No presente en marco -1
+Página 237: No presente en marco -1
+Página 238: No presente en marco -1
+Página 239: No presente en marco -1
+Página 240: No presente en marco -1
+Página 241: No presente en marco -1
+Página 242: Presente en marco 2
+Página 243: No presente en marco -1
+Página 244: No presente en marco -1
+Página 245: Presente en marco 97
+Página 246: No presente en marco -1
+Página 247: No presente en marco -1
+Página 248: No presente en marco -1
+Página 249: No presente en marco -1
+Página 250: No presente en marco -1
+Página 251: No presente en marco -1
+Página 252: No presente en marco -1
+Página 253: No presente en marco -1
+Página 254: No presente en marco -1
+Página 255: No presente en marco -1
+
+Contenido de la cola FIFO (orden de desalojo):
+Página 0 -> Página 205 -> Página 9 -> Página 26 -> Página 207 -> Página 218 -> Página 201 -> Página 241 -> Página 27 -> Página 150 -> Página 167 -> Página 104 -> Página 219 -> Página 93 -> Página 110 -> Página 54 -> Página 89 -> Página 62 -> Página 101 -> Página 124 -> Página 103 -> Página 74 -> Página 136 -> Página 186 -> Página 68 -> Página 223 -> Página 166 -> Página 249 -> Página 67 -> Página 102 -> Página 116 -> Página 176 -> Página 136 -> Página 84 -> Página 255 -> Página 34 -> Página 126 -> Página 182 -> Página 225 -> Página 169 -> Página 227 -> Página 140 -> Página 245 -> Página 167 -> Página 90 -> Página 161 -> Página 53 -> Página 76 -> Página 39 -> Página 52 -> Página 141 -> Página 114 -> Página 195 -> Página 38 -> Página 35 -> Página 132 -> Página 33 -> Página 69 -> Página 141 -> Página 98 -> Página 209 -> Página 165 -> Página 102 -> Página 58 -> Página 100 -> Página 152 -> Página 184 -> Página 118 -> Página 217 -> Página 61 -> Página 119 -> Página 164 -> Página 115 -> Página 78 -> Página 124 -> Página 178 -> Página 158 -> Página 217 -> Página 245 -> Página 109 -> Página 108 -> Página 44 -> Página 217 -> Página 52 -> Página 76 -> Página 224 -> Página 153 -> Página 184 -> Página 187 -> Página 97 -> Página 38 -> Página 81 -> Página 80 -> Página 225 -> Página 224 -> Página 154 -> Página 242 -> Página 235 -> Página 170 -> Página 178 -> NULL
