@@ -21,10 +21,8 @@ void simulate(PageRequest* requests, int num_requests, Frame frames[], int num_f
     for (int i = 0; i < num_requests; i++) {
         PageRequest req = requests[i];
         PageTable* pt = &(ppt->tables[req.process_id]);  // Use the page table of the corresponding process
-        LRUQueue queue;
-        initQueue(&queue);
-        processPageRequest(pt, frames, &queue, req);
-        printMemoryState(frames, num_frames, *ppt, &queue);
+        processPageRequest(pt, frames, queue, req);
+        printMemoryState(frames, num_frames, *ppt, queue);
         //usleep(500000); // Visual pause
     }
 }

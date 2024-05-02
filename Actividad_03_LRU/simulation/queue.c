@@ -48,7 +48,7 @@ void accessPage(LRUQueue* queue, int page_id) {
         temp = temp->next;
     }
 
-    if (temp == NULL) return; // Si no se encuentra, no hacer nada (esto no debería pasar en uso normal).
+    if (temp == NULL) return; // Si no se encuentra, no hacer nada.
 
     if (temp == queue->head) return; // Ya es el más reciente, no hacer nada.
 

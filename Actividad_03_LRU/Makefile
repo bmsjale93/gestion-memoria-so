@@ -5,7 +5,7 @@ CC = gcc
 # Flags de compilación:
 # -I./simulation añade el directorio simulation a la lista de directorios a buscar para los archivos de inclusión.
 # -Wall habilita todos los mensajes de advertencia del compilador.
-CFLAGS = -I./simulation -Wall
+CFLAGS = -I./simulation -Wall -g
 
 # Busca todos los archivos fuente en el directorio simulation y los almacena en la variable SRCS.
 SRCS = $(wildcard simulation/*.c)

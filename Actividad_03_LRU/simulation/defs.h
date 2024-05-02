@@ -45,13 +45,14 @@ typedef struct {
     int num_processes;     // Cantidad total de procesos simulados.
 } ProcessPageTables;
 
+// Estructura para los Nodos siguiendo el enfoque LRU
 typedef struct Node {
     int page_id;          // Identificador de la página en el nodo.
     struct Node* prev;    // Puntero al nodo anterior.
     struct Node* next;    // Puntero al nodo siguiente.
 } Node;
 
-
+// Definimos la estructura para la cola LRU
 typedef struct {
     Node* head;  // Puntero al nodo más recientemente usado (MRU).
     Node* tail;  // Puntero al nodo menos recientemente usado (LRU).
