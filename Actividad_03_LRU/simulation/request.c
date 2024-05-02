@@ -1,9 +1,10 @@
 // request.c
 #include "request.h"
+#include "queue.h"
 #include <stdio.h>
 #include <stdlib.h>
 
-void processPageRequest(PageTable* pt, Frame frames[], FIFOQueue* queue, PageRequest request) {
+void processPageRequest(PageTable* pt, Frame frames[], LRUQueue* queue, PageRequest request) {
     char logMessage[256];
 
     // Log the request being processed
@@ -15,16 +16,19 @@ void processPageRequest(PageTable* pt, Frame frames[], FIFOQueue* queue, PageReq
     logEvent(logMessage);
 
     if (pt->pages[request.page_id].valid) {
-        sprintf(logMessage, "Página %d ya está en memoria, no se requiere acción.", request.page_id);
+        // Access the page, updating its position in the LRU queue
+        accessPage(queue, request.page_id);
+        sprintf(logMessage, "Página %d accedida y movida a MRU.", request.page_id);
         logEvent(logMessage);
         return;
     }
 
     int frameIndex = findFreeFrame(frames, NUM_FRAMES);
     if (frameIndex == -1) {
+        // No free frames, need to evict the least recently used page
         int evictedPageId = dequeue(queue, pt);
         if (evictedPageId == -1) {
-            sprintf(logMessage, "No hay páginas válidas en la cola FIFO para desalojar.");
+            sprintf(logMessage, "No hay páginas válidas en la cola LRU para desalojar.");
             logEvent(logMessage);
             return;
         }
@@ -39,6 +43,7 @@ void processPageRequest(PageTable* pt, Frame frames[], FIFOQueue* queue, PageReq
         logEvent(logMessage);
     }
 
+    // Place the new page in the frame and update the LRU queue
     frames[frameIndex].page_id = request.page_id;
     frames[frameIndex].occupied = 1;
     pt->pages[request.page_id].frame_id = frameIndex;

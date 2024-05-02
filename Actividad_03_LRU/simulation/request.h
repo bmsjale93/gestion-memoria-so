@@ -7,6 +7,6 @@
 #include "memory.h"
 #include "queue.h"
 
-void processPageRequest(PageTable* pt, Frame frames[], FIFOQueue* queue, PageRequest request);
+void processPageRequest(PageTable* pt, Frame frames[], LRUQueue* queue, PageRequest request);
 
 #endif // REQUEST_H

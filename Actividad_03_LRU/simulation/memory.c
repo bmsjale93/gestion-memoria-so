@@ -28,7 +28,7 @@ int findFreeFrame(Frame frames[], int num_frames) {
     return -1;
 }
 
-void printMemoryState(Frame frames[], int num_frames, ProcessPageTables ppt, FIFOQueue queue) {
+void printMemoryState(Frame frames[], int num_frames, ProcessPageTables ppt, LRUQueue* queue) {
     FILE *file = fopen("memory_details.txt", "w");
     if (file == NULL) {
         perror("Error opening file");
@@ -63,7 +63,7 @@ void printMemoryState(Frame frames[], int num_frames, ProcessPageTables ppt, FIF
     }
 
     fprintf(file, "\nContenido de la cola FIFO (orden de desalojo):\n");
-    Node* current = queue.front;
+    Node* current = queue->head;
     while (current != NULL) {
         fprintf(file, "Página %d -> ", current->page_id);
         current = current->next;

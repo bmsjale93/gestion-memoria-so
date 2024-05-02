@@ -17,12 +17,14 @@ void initSimulation(Frame frames[], int num_frames) {
     }
 }
 
-void simulate(PageRequest* requests, int num_requests, Frame frames[], int num_frames, ProcessPageTables* ppt, FIFOQueue* queue) {
+void simulate(PageRequest* requests, int num_requests, Frame frames[], int num_frames, ProcessPageTables* ppt, LRUQueue* queue) {
     for (int i = 0; i < num_requests; i++) {
         PageRequest req = requests[i];
         PageTable* pt = &(ppt->tables[req.process_id]);  // Use the page table of the corresponding process
-        processPageRequest(pt, frames, queue, req);
-        printMemoryState(frames, num_frames, *ppt, *queue);
+        LRUQueue queue;
+        initQueue(&queue);
+        processPageRequest(pt, frames, &queue, req);
+        printMemoryState(frames, num_frames, *ppt, &queue);
         //usleep(500000); // Visual pause
     }
 }
@@ -31,7 +33,7 @@ void runTest(PageRequest* requests, int num_requests, const char* test_name) {
     Frame frames[NUM_FRAMES];
     ProcessPageTables ppt;
     initProcessPageTables(&ppt, 3); // Inicializa tablas de página para 3 procesos
-    FIFOQueue queue;
+    LRUQueue queue;
     initQueue(&queue);
     initSimulation(frames, NUM_FRAMES);
 
@@ -43,7 +45,7 @@ void runTest(PageRequest* requests, int num_requests, const char* test_name) {
     }
     free(ppt.tables);  // Free the array of page tables
 
-    Node* current = queue.front;
+    Node* current = queue.head;
     while (current != NULL) {
         Node* next = current->next;
         free(current);

@@ -7,6 +7,6 @@
 void initPageTable(PageTable* pt, int num_pages);
 void initProcessPageTables(ProcessPageTables* ppt, int num_processes);
 int findFreeFrame(Frame frames[], int num_frames);
-void printMemoryState(Frame frames[], int num_frames, ProcessPageTables ppt, FIFOQueue queue);
+void printMemoryState(Frame frames[], int num_frames, ProcessPageTables ppt, LRUQueue* queue);
 
 #endif // MEMORY_H

@@ -2,40 +2,70 @@
 #include "queue.h"
 #include <stdlib.h>
 
-void initQueue(FIFOQueue* queue) {
-    queue->front = queue->rear = NULL;
+void initQueue(LRUQueue* queue) {
+    queue->head = queue->tail = NULL;
 }
 
-void enqueue(FIFOQueue* queue, int page_id) {
-    Node* newNode = (Node*) malloc(sizeof(Node));
+void enqueue(LRUQueue* queue, int page_id) {
+    Node* newNode = (Node*)malloc(sizeof(Node));
     newNode->page_id = page_id;
-    newNode->next = NULL;
-    if (queue->rear == NULL) {
-        queue->front = queue->rear = newNode;
+    newNode->next = queue->head;
+    newNode->prev = NULL;
+
+    if (queue->head == NULL) {
+        queue->head = queue->tail = newNode;
     } else {
-        queue->rear->next = newNode;
-        queue->rear = newNode;
+        queue->head->prev = newNode;
+        queue->head = newNode;
     }
 }
 
-int dequeue(FIFOQueue* queue, PageTable* pt) {
-    Node* temp = queue->front;
-    while (temp != NULL) {
-        int page_id = temp->page_id;
-        if (pt->pages[page_id].valid && pt->pages[page_id].frame_id != -1) {
-            if (temp == queue->front) {
-                queue->front = temp->next;
-                if (queue->front == NULL) queue->rear = NULL;
-            } else {
-                Node* prev = queue->front;
-                while (prev->next != temp) prev = prev->next;
-                prev->next = temp->next;
-                if (prev->next == NULL) queue->rear = prev;
-            }
-            free(temp);
-            return page_id;
-        }
+int dequeue(LRUQueue* queue, PageTable* pt){
+    if (queue->tail == NULL) {
+        // La cola está vacía
+        return -1;
+    }
+
+    Node* temp = queue->tail;
+    int page_id = temp->page_id;
+
+    // Si es el único nodo en la cola
+    if (queue->head == queue->tail) {
+        queue->head = queue->tail = NULL;
+    } else {
+        // Ajustar el puntero `tail` al penúltimo nodo
+        queue->tail = temp->prev;
+        queue->tail->next = NULL;
+    }
+
+    free(temp); // Liberar el nodo eliminado
+    return page_id;
+}
+
+void accessPage(LRUQueue* queue, int page_id) {
+    Node* temp = queue->head;
+    while (temp != NULL && temp->page_id != page_id) {
         temp = temp->next;
     }
-    return -1;
+
+    if (temp == NULL) return; // Si no se encuentra, no hacer nada (esto no debería pasar en uso normal).
+
+    if (temp == queue->head) return; // Ya es el más reciente, no hacer nada.
+
+    // Desconectar el nodo de su posición actual
+    if (temp->prev) {
+        temp->prev->next = temp->next;
+    }
+    if (temp->next) {
+        temp->next->prev = temp->prev;
+    }
+    if (temp == queue->tail) {
+        queue->tail = temp->prev;
+    }
+
+    // Mover el nodo al frente
+    temp->next = queue->head;
+    temp->prev = NULL;
+    queue->head->prev = temp;
+    queue->head = temp;
 }

@@ -4,8 +4,8 @@
 
 #include "defs.h"
 
-void initQueue(FIFOQueue* queue);
-void enqueue(FIFOQueue* queue, int page_id);
-int dequeue(FIFOQueue* queue, PageTable* pt);
-
+void initQueue(LRUQueue* queue);
+void enqueue(LRUQueue* queue, int page_id);
+int dequeue(LRUQueue* queue, PageTable* pt);
+void accessPage(LRUQueue* queue, int page_id);
 #endif // QUEUE_H
