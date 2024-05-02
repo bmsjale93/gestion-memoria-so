@@ -20,7 +20,7 @@ void enqueue(LRUQueue* queue, int page_id) {
     }
 }
 
-int dequeue(LRUQueue* queue, PageTable* pt){
+int dequeue(LRUQueue* queue, PageTable* pt) {
     if (queue->tail == NULL) {
         // La cola está vacía
         return -1;
@@ -29,18 +29,41 @@ int dequeue(LRUQueue* queue, PageTable* pt){
     Node* temp = queue->tail;
     int page_id = temp->page_id;
 
-    // Si es el único nodo en la cola
-    if (queue->head == queue->tail) {
+    // Recorrer hacia atrás desde tail hasta encontrar un nodo válido
+    while (temp != NULL && !(pt->pages[page_id].valid && pt->pages[page_id].frame_id != -1)) {
+        temp = temp->prev;  // Moverse al nodo anterior
+        if (temp != NULL) {
+            page_id = temp->page_id;  // Actualizar el page_id según el nuevo nodo
+        }
+    }
+
+    if (temp == NULL) {
+        // No se encontró ningún nodo válido para eliminar
+        return -1;
+    }
+
+    // Desconectar el nodo encontrado de la cola
+    if (temp == queue->head && temp == queue->tail) {
+        // Es el único nodo en la cola
         queue->head = queue->tail = NULL;
-    } else {
-        // Ajustar el puntero `tail` al penúltimo nodo
+    } else if (temp == queue->tail) {
+        // Es el nodo tail, ajustar el puntero tail
         queue->tail = temp->prev;
         queue->tail->next = NULL;
+    } else if (temp == queue->head) {
+        // Es el nodo head, ajustar el puntero head
+        queue->head = temp->next;
+        queue->head->prev = NULL;
+    } else {
+        // El nodo está en el medio de la cola
+        temp->prev->next = temp->next;
+        temp->next->prev = temp->prev;
     }
 
     free(temp); // Liberar el nodo eliminado
     return page_id;
 }
+
 
 void accessPage(LRUQueue* queue, int page_id) {
     Node* temp = queue->head;
