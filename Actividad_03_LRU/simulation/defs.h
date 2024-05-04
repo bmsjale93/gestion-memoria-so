@@ -5,10 +5,10 @@
 #define DEFS_H
 
 // Tamaño de página estándar utilizado en la simulación.
-#define PAGE_SIZE 4096
+#define PAGE_SIZE 8192
 
 // Número de marcos de página disponibles en la memoria física.
-#define NUM_FRAMES 100
+#define NUM_FRAMES 10000
 
 // Tamaño total de la memoria física calculado en base a la cantidad y tamaño de los marcos de página.
 #define MEMORY_SIZE (NUM_FRAMES * PAGE_SIZE)
